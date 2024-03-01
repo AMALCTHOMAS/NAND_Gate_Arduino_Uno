@@ -14,6 +14,10 @@ This project implements a NAND gate using an Arduino Uno and LEDs. The circuit c
 - Connect one terminal of each push button to the ground (GND) of the Arduino Uno.
 - Connect the other terminal of each push button to the designated digital pins of the Arduino Uno. Also, connect each terminal to +5V of the Arduino Uno through a 10K ohm resistor.
 
+## Folder Structure
+- **/program:** Contains the Arduino sketch for the NAND gate implementation.
+- **/documentation:** Contains detailed documentation for the project.
+
 ## Operation
 - Pressing a push button toggles the state of the corresponding LED.
 - The output LED reflects the NAND gate operation based on the inputs. It remains LOW only when both input LEDs are HIGH; otherwise, it is HIGH.
